@@ -159,11 +159,10 @@ const displayQR = () => {
         />
       </div>
       <div class="product-text">${
-        name.length <= 40 ? name : name.substring(0, 40) + " . . ."
+        name.length <= 32 ? name : name.substring(0, 32) + " . . ."
       }</div>
       <div class="brand-text">MATERIAL DEPOT</div>
     </div>`;
-    
   });
   qrCodes += `</div>
 </body>
